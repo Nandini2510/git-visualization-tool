@@ -22,7 +22,7 @@ Run the script to analyze Git repositories:
 
 bash
 Copy code
-python analyze_repos_and_commits.py /path/to/search --email user@example.com --days 30
+python app.py /path/to/search --email user@example.com --days 30
 Replace:
 
 /path/to/search with the root directory containing Git repositories to analyze.
@@ -30,7 +30,7 @@ user@example.com with the email address of the author whose commit activity you 
 30 with the number of days to analyze commits (default: 30 days).
 
 Script Explanation
-analyze_repos_and_commits.py: Main script for analyzing Git repositories and visualizing commit activity.
+app.py: Main script for analyzing Git repositories and visualizing commit activity.
 
 Functionality
 Analyzes total commits, unique contributors, and commit activity for each repository.
