@@ -12,8 +12,8 @@ This Python script allows you to analyze Git repositories within a directory str
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/git-repo-analyzer.git
-   cd git-repo-analyzer
+   git clone https://github.com/Nandini2510/git-visualization-tool.git
+   cd git-visualization-tool
 
 Install dependencies:
 bash
@@ -29,6 +29,7 @@ Functionality
 Analyzes total commits, unique contributors, and commit activity for each repository.
 Generates a contribution graph for each repository, showing commit count by contributor email.
 
+Refer my medium blog : 
 
 ## Usage
 Run the script to analyze Git repositories:
